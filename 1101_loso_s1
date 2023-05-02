@@ -1,0 +1,1591 @@
+========
+subject 0
+========
+model parameters: Namespace(batch_size=16, bidirectional=False, cell_dropout=0.1, clip_id=None, db_name='SEED', final_dropout=0.1, hidden_dim=1024, iter_num=14, learning_rate=0.0001, log_dir='log_loso_s1', n_layer=2, name_model='EEG-Emotion-master', optim_type='Adam', path='SEED_win_s1.mat', per_checkpoint=7, rnn_type='GRU', save_file='1101_loso_s1', seed=1705216, session_id=None, strategy='loso', sub_id=0, weight_decay=0)========
+subject 0
+========
+model parameters: Namespace(batch_size=16, bidirectional=False, cell_dropout=0.1, clip_id=None, db_name='SEED', final_dropout=0.1, hidden_dim=1024, iter_num=14, learning_rate=0.0001, log_dir='log_loso_s1', n_layer=2, name_model='EEG-Emotion-master', optim_type='Adam', path='SEED_win_s1.mat', per_checkpoint=7, rnn_type='GRU', save_file='1101_loso_s1', seed=1705216, session_id=None, strategy='loso', sub_id=0, weight_decay=0)========
+subject 0
+========
+model parameters: Namespace(batch_size=16, bidirectional=False, cell_dropout=0.1, clip_id=None, db_name='SEED', final_dropout=0.1, hidden_dim=1024, iter_num=14, learning_rate=0.0001, log_dir='log_loso_s1', n_layer=2, name_model='EEG-Emotion-master', optim_type='Adam', path='SEED_win_s1.mat', per_checkpoint=7, rnn_type='GRU', save_file='1101_loso_s1', seed=1705216, session_id=None, strategy='loso', sub_id=0, weight_decay=0)========
+subject 0
+========
+model parameters: Namespace(batch_size=16, bidirectional=False, cell_dropout=0.1, clip_id=None, db_name='SEED', final_dropout=0.1, hidden_dim=1024, iter_num=14, learning_rate=0.0001, log_dir='log_loso_s1', n_layer=2, name_model='EEG-Emotion-master', optim_type='Adam', path='SEED_win_s1.mat', per_checkpoint=7, rnn_type='GRU', save_file='1101_loso_s1', seed=1705216, session_id=None, strategy='loso', sub_id=0, weight_decay=0)========
+subject 0
+========
+model parameters: Namespace(batch_size=16, bidirectional=False, cell_dropout=0.1, clip_id=None, db_name='SEED', final_dropout=0.1, hidden_dim=1024, iter_num=14, learning_rate=0.0001, log_dir='log_loso_s1', n_layer=2, name_model='EEG-Emotion-master', optim_type='Adam', path='SEED_win_s1.mat', per_checkpoint=7, rnn_type='GRU', save_file='1101_loso_s1', seed=1705216, session_id=None, strategy='loso', sub_id=0, weight_decay=0)
+------------------------------------------------------------------
+Time of iter training 0.00 s
+On iter step 0.0:, global step 0 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [5.76], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[ 3  0 67]
+ [ 4  0 66]
+ [ 3  0 67]]
+In dataset test: Loss is [6.10], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[0 0 5]
+ [0 0 5]
+ [0 0 5]]
+Maximum train accuracy is 0.3333333333333333 in global step 0
+Maximum test accuracy is 0.3333333333333333 in global step 0
+
+------------------------------------------------------------------
+Time of iter training 41.45 s
+On iter step 1.0:, global step 7 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [90.65], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[70  0  0]
+ [69  0  1]
+ [70  0  0]]
+In dataset test: Loss is [75.34], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[5 0 0]
+ [5 0 0]
+ [5 0 0]]
+Maximum train accuracy is 0.3333333333333333 in global step 7
+Maximum test accuracy is 0.3333333333333333 in global step 7
+========
+subject 1
+========
+model parameters: Namespace(batch_size=16, bidirectional=False, cell_dropout=0.1, clip_id=None, db_name='SEED', final_dropout=0.1, hidden_dim=1024, iter_num=14, learning_rate=0.0001, log_dir='log_loso_s1', n_layer=2, name_model='EEG-Emotion-master', optim_type='Adam', path='SEED_win_s1.mat', per_checkpoint=7, rnn_type='GRU', save_file='1101_loso_s1', seed=1705216, session_id=None, strategy='loso', sub_id=1, weight_decay=0)
+------------------------------------------------------------------
+Time of iter training 0.00 s
+On iter step 0.0:, global step 0 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [4.04], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[ 0  0 70]
+ [ 0  0 70]
+ [ 0  0 70]]
+In dataset test: Loss is [4.54], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[0 0 5]
+ [0 0 5]
+ [0 0 5]]
+Maximum train accuracy is 0.3333333333333333 in global step 0
+Maximum test accuracy is 0.3333333333333333 in global step 0
+
+------------------------------------------------------------------
+Time of iter training 38.56 s
+On iter step 1.0:, global step 7 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [168.90], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[ 0  0 70]
+ [ 0  0 70]
+ [ 0  0 70]]
+In dataset test: Loss is [272.73], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[0 0 5]
+ [0 0 5]
+ [0 0 5]]
+Maximum train accuracy is 0.3333333333333333 in global step 7
+Maximum test accuracy is 0.3333333333333333 in global step 7
+========
+subject 0
+========
+model parameters: Namespace(batch_size=16, bidirectional=False, cell_dropout=0.1, clip_id=None, db_name='SEED', final_dropout=0.1, hidden_dim=1024, iter_num=14, learning_rate=0.0001, log_dir='log_loso_s1', n_layer=2, name_model='EEG-Emotion-master', optim_type='Adam', path='SEED_win_s1.mat', per_checkpoint=7, rnn_type='LSTM', save_file='1101_loso_s1', seed=1705216, session_id=None, strategy='loso', sub_id=0, weight_decay=0)========
+subject 0
+========
+model parameters: Namespace(batch_size=16, bidirectional=False, cell_dropout=0.1, clip_id=None, db_name='SEED', final_dropout=0.1, hidden_dim=1024, iter_num=14, learning_rate=0.0001, log_dir='log_loso_s1', n_layer=2, name_model='EEG-Emotion-master', optim_type='Adam', path='EEG_feature/SEED_win_s1.mat', per_checkpoint=7, rnn_type='LSTM', save_file='1101_loso_s1', seed=1705216, session_id=None, strategy='loso', sub_id=0, weight_decay=0)
+------------------------------------------------------------------
+Time of iter training 0.00 s
+On iter step 0.0:, global step 0 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [3.22], Accuracy is 0.3142857142857143
+Confusion matrix: 
+[[56  0 14]
+ [64  0  6]
+ [60  0 10]]
+In dataset test: Loss is [3.39], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[5 0 0]
+ [5 0 0]
+ [5 0 0]]
+Maximum train accuracy is 0.3142857142857143 in global step 0
+Maximum test accuracy is 0.3333333333333333 in global step 0
+
+------------------------------------------------------------------
+Time of iter training 52.32 s
+On iter step 1.0:, global step 7 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [4.86], Accuracy is 0.3904761904761905
+Confusion matrix: 
+[[12  0 58]
+ [ 0  0 70]
+ [ 0  0 70]]
+In dataset test: Loss is [4.70], Accuracy is 0.4
+Confusion matrix: 
+[[1 0 4]
+ [0 0 5]
+ [0 0 5]]
+Maximum train accuracy is 0.3904761904761905 in global step 7
+Maximum test accuracy is 0.4 in global step 7
+========
+subject 0
+========
+model parameters: Namespace(batch_size=16, bidirectional=False, cell_dropout=0.1, clip_id=None, db_name='SEED', final_dropout=0.1, hidden_dim=1024, iter_num=28, learning_rate=0.0001, log_dir='log_loso_s1', n_layer=2, name_model='EEG-Emotion-master', optim_type='Adam', path='EEG_feature/SEED_win_s1.mat', per_checkpoint=7, rnn_type='LSTM', save_file='1101_loso_s1', seed=1705216, session_id=None, strategy='loso', sub_id=0, weight_decay=0)
+------------------------------------------------------------------
+Time of iter training 0.00 s
+On iter step 0.0:, global step 0 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [3.10], Accuracy is 0.32857142857142857
+Confusion matrix: 
+[[ 4 66  0]
+ [ 5 65  0]
+ [ 6 64  0]]
+In dataset test: Loss is [3.03], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[0 5 0]
+ [0 5 0]
+ [0 5 0]]
+Maximum train accuracy is 0.32857142857142857 in global step 0
+Maximum test accuracy is 0.3333333333333333 in global step 0
+
+------------------------------------------------------------------
+Time of iter training 51.55 s
+On iter step 1.0:, global step 7 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [3.22], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[ 0 70  0]
+ [ 0 70  0]
+ [ 0 70  0]]
+In dataset test: Loss is [3.50], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[0 5 0]
+ [0 5 0]
+ [0 5 0]]
+Maximum train accuracy is 0.3333333333333333 in global step 7
+Maximum test accuracy is 0.3333333333333333 in global step 7
+
+------------------------------------------------------------------
+Time of iter training 51.89 s
+On iter step 2.0:, global step 14 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [5.35], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[ 0 70  0]
+ [ 0 70  0]
+ [ 0 70  0]]
+In dataset test: Loss is [5.42], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[0 5 0]
+ [0 5 0]
+ [0 5 0]]
+Maximum train accuracy is 0.3333333333333333 in global step 14
+Maximum test accuracy is 0.3333333333333333 in global step 14
+
+------------------------------------------------------------------
+Time of iter training 54.81 s
+On iter step 3.0:, global step 21 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [3.26], Accuracy is 0.4
+Confusion matrix: 
+[[14  0 56]
+ [ 0  0 70]
+ [ 0  0 70]]
+In dataset test: Loss is [3.25], Accuracy is 0.4
+Confusion matrix: 
+[[1 0 4]
+ [0 0 5]
+ [0 0 5]]
+Maximum train accuracy is 0.4 in global step 21
+Maximum test accuracy is 0.4 in global step 21
+========
+subject 0
+========
+model parameters: Namespace(batch_size=16, bidirectional=False, cell_dropout=0.1, clip_id=None, db_name='SEED', final_dropout=0.1, hidden_dim=1024, iter_num=28, learning_rate=0.0001, log_dir='log_loso_s1', n_layer=2, name_model='EEG-Emotion-master', optim_type='Adam', path='EEG_feature/SEED_win_s1.mat', per_checkpoint=7, rnn_type='LSTM', save_file='1101_loso_s1', seed=1705216, session_id=None, strategy='loso', sub_id=0, weight_decay=0)
+------------------------------------------------------------------
+Time of iter training 0.00 s
+On iter step 0.0:, global step 0 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.99], Accuracy is 0.3619047619047619
+Confusion matrix: 
+[[63  3  4]
+ [62  4  4]
+ [61  0  9]]
+In dataset test: Loss is [2.99], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[5 0 0]
+ [5 0 0]
+ [5 0 0]]
+Maximum train accuracy is 0.3619047619047619 in global step 0
+Maximum test accuracy is 0.3333333333333333 in global step 0
+
+------------------------------------------------------------------
+Time of iter training 5.54 s
+On iter step 1.0:, global step 7 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [3.00], Accuracy is 0.37142857142857144
+Confusion matrix: 
+[[ 8 62  0]
+ [ 0 70  0]
+ [ 0 70  0]]
+In dataset test: Loss is [3.00], Accuracy is 0.4
+Confusion matrix: 
+[[1 4 0]
+ [0 5 0]
+ [0 5 0]]
+Maximum train accuracy is 0.37142857142857144 in global step 7
+Maximum test accuracy is 0.4 in global step 7
+
+------------------------------------------------------------------
+Time of iter training 5.35 s
+On iter step 2.0:, global step 14 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [3.05], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[ 0  0 70]
+ [ 0  0 70]
+ [ 0  0 70]]
+In dataset test: Loss is [3.07], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[0 0 5]
+ [0 0 5]
+ [0 0 5]]
+Maximum train accuracy is 0.37142857142857144 in global step 7
+Maximum test accuracy is 0.4 in global step 7
+
+------------------------------------------------------------------
+Time of iter training 5.14 s
+On iter step 3.0:, global step 21 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.97], Accuracy is 0.3476190476190476
+Confusion matrix: 
+[[68  0  2]
+ [65  0  5]
+ [65  0  5]]
+In dataset test: Loss is [2.98], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[5 0 0]
+ [5 0 0]
+ [5 0 0]]
+Maximum train accuracy is 0.37142857142857144 in global step 7
+Maximum test accuracy is 0.4 in global step 7
+========
+subject 0
+========
+model parameters: Namespace(batch_size=16, bidirectional=False, cell_dropout=0.1, clip_id=None, db_name='SEED', final_dropout=0.1, hidden_dim=1024, iter_num=280, learning_rate=0.0001, log_dir='log_loso_s1', n_layer=2, name_model='EEG-Emotion-master', optim_type='Adam', path='EEG_feature/SEED_win_s1.mat', per_checkpoint=7, rnn_type='LSTM', save_file='1101_loso_s1', seed=1705216, session_id=None, strategy='loso', sub_id=0, weight_decay=0)
+------------------------------------------------------------------
+Time of iter training 0.00 s
+On iter step 0.0:, global step 0 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [3.01], Accuracy is 0.2523809523809524
+Confusion matrix: 
+[[26 26 18]
+ [26 12 32]
+ [38 17 15]]
+In dataset test: Loss is [2.99], Accuracy is 0.4
+Confusion matrix: 
+[[4 0 1]
+ [4 1 0]
+ [2 2 1]]
+Maximum train accuracy is 0.2523809523809524 in global step 0
+Maximum test accuracy is 0.4 in global step 0
+
+------------------------------------------------------------------
+Time of iter training 4.91 s
+On iter step 1.0:, global step 7 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.98], Accuracy is 0.3619047619047619
+Confusion matrix: 
+[[36  0 34]
+ [52  0 18]
+ [30  0 40]]
+In dataset test: Loss is [2.95], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[5 0 0]
+ [4 0 1]
+ [5 0 0]]
+Maximum train accuracy is 0.3619047619047619 in global step 7
+Maximum test accuracy is 0.4 in global step 0
+
+------------------------------------------------------------------
+Time of iter training 4.67 s
+On iter step 2.0:, global step 14 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.99], Accuracy is 0.3619047619047619
+Confusion matrix: 
+[[50  0 20]
+ [63  0  7]
+ [44  0 26]]
+In dataset test: Loss is [2.95], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[5 0 0]
+ [4 0 1]
+ [5 0 0]]
+Maximum train accuracy is 0.3619047619047619 in global step 14
+Maximum test accuracy is 0.4 in global step 0
+
+------------------------------------------------------------------
+Time of iter training 4.41 s
+On iter step 3.0:, global step 21 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.98], Accuracy is 0.35714285714285715
+Confusion matrix: 
+[[ 0 64  6]
+ [ 0 70  0]
+ [ 0 65  5]]
+In dataset test: Loss is [3.01], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[0 5 0]
+ [0 5 0]
+ [0 5 0]]
+Maximum train accuracy is 0.3619047619047619 in global step 14
+Maximum test accuracy is 0.4 in global step 0
+
+------------------------------------------------------------------
+Time of iter training 4.16 s
+On iter step 4.0:, global step 28 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.99], Accuracy is 0.32857142857142857
+Confusion matrix: 
+[[69  1  0]
+ [70  0  0]
+ [70  0  0]]
+In dataset test: Loss is [2.99], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[5 0 0]
+ [5 0 0]
+ [5 0 0]]
+Maximum train accuracy is 0.3619047619047619 in global step 14
+Maximum test accuracy is 0.4 in global step 0
+
+------------------------------------------------------------------
+Time of iter training 3.96 s
+On iter step 5.0:, global step 35 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [3.05], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[70  0  0]
+ [70  0  0]
+ [70  0  0]]
+In dataset test: Loss is [3.02], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[5 0 0]
+ [5 0 0]
+ [5 0 0]]
+Maximum train accuracy is 0.3619047619047619 in global step 14
+Maximum test accuracy is 0.4 in global step 0
+
+------------------------------------------------------------------
+Time of iter training 3.91 s
+On iter step 6.0:, global step 42 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [3.09], Accuracy is 0.40476190476190477
+Confusion matrix: 
+[[65  5  0]
+ [50 20  0]
+ [60 10  0]]
+In dataset test: Loss is [3.06], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[5 0 0]
+ [5 0 0]
+ [5 0 0]]
+Maximum train accuracy is 0.40476190476190477 in global step 42
+Maximum test accuracy is 0.4 in global step 0
+
+------------------------------------------------------------------
+Time of iter training 4.18 s
+On iter step 7.0:, global step 49 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.95], Accuracy is 0.4666666666666667
+Confusion matrix: 
+[[49 20  1]
+ [23 47  0]
+ [43 25  2]]
+In dataset test: Loss is [2.95], Accuracy is 0.4
+Confusion matrix: 
+[[1 0 4]
+ [2 0 3]
+ [0 0 5]]
+Maximum train accuracy is 0.4666666666666667 in global step 49
+Maximum test accuracy is 0.4 in global step 49
+
+------------------------------------------------------------------
+Time of iter training 3.59 s
+On iter step 8.0:, global step 56 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.94], Accuracy is 0.5285714285714286
+Confusion matrix: 
+[[14 17 39]
+ [ 0 51 19]
+ [ 0 24 46]]
+In dataset test: Loss is [2.96], Accuracy is 0.4666666666666667
+Confusion matrix: 
+[[1 0 4]
+ [0 1 4]
+ [0 0 5]]
+Maximum train accuracy is 0.5285714285714286 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 56
+
+------------------------------------------------------------------
+Time of iter training 3.44 s
+On iter step 9.0:, global step 63 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [3.00], Accuracy is 0.4
+Confusion matrix: 
+[[14  0 56]
+ [ 0  0 70]
+ [ 0  0 70]]
+In dataset test: Loss is [3.01], Accuracy is 0.4
+Confusion matrix: 
+[[1 0 4]
+ [0 0 5]
+ [0 0 5]]
+Maximum train accuracy is 0.5285714285714286 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 56
+
+------------------------------------------------------------------
+Time of iter training 3.19 s
+On iter step 10.0:, global step 70 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [3.18], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[70  0  0]
+ [70  0  0]
+ [70  0  0]]
+In dataset test: Loss is [3.15], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[5 0 0]
+ [5 0 0]
+ [5 0 0]]
+Maximum train accuracy is 0.5285714285714286 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 56
+
+------------------------------------------------------------------
+Time of iter training 3.16 s
+On iter step 11.0:, global step 77 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.97], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[70  0  0]
+ [70  0  0]
+ [70  0  0]]
+In dataset test: Loss is [2.97], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[5 0 0]
+ [5 0 0]
+ [5 0 0]]
+Maximum train accuracy is 0.5285714285714286 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 56
+
+------------------------------------------------------------------
+Time of iter training 3.04 s
+On iter step 12.0:, global step 84 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.97], Accuracy is 0.35714285714285715
+Confusion matrix: 
+[[ 5  0 65]
+ [ 0  0 70]
+ [ 0  0 70]]
+In dataset test: Loss is [2.99], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[0 0 5]
+ [0 0 5]
+ [0 0 5]]
+Maximum train accuracy is 0.5285714285714286 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 56
+
+------------------------------------------------------------------
+Time of iter training 2.98 s
+On iter step 13.0:, global step 91 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.99], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[ 0  0 70]
+ [ 0  0 70]
+ [ 0  0 70]]
+In dataset test: Loss is [3.03], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[0 0 5]
+ [0 0 5]
+ [0 0 5]]
+Maximum train accuracy is 0.5285714285714286 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 56
+
+------------------------------------------------------------------
+Time of iter training 2.89 s
+On iter step 14.0:, global step 98 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.96], Accuracy is 0.4
+Confusion matrix: 
+[[14 56  0]
+ [ 0 70  0]
+ [ 0 70  0]]
+In dataset test: Loss is [2.96], Accuracy is 0.4
+Confusion matrix: 
+[[1 4 0]
+ [0 5 0]
+ [0 5 0]]
+Maximum train accuracy is 0.5285714285714286 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 56
+
+------------------------------------------------------------------
+Time of iter training 2.81 s
+On iter step 15.0:, global step 105 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.96], Accuracy is 0.4
+Confusion matrix: 
+[[14 56  0]
+ [ 0 70  0]
+ [ 0 70  0]]
+In dataset test: Loss is [2.97], Accuracy is 0.4
+Confusion matrix: 
+[[1 4 0]
+ [0 5 0]
+ [0 5 0]]
+Maximum train accuracy is 0.5285714285714286 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 56
+
+------------------------------------------------------------------
+Time of iter training 2.68 s
+On iter step 16.0:, global step 112 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.94], Accuracy is 0.4
+Confusion matrix: 
+[[14  0 56]
+ [ 0  0 70]
+ [ 0  0 70]]
+In dataset test: Loss is [2.94], Accuracy is 0.4
+Confusion matrix: 
+[[1 0 4]
+ [0 0 5]
+ [0 0 5]]
+Maximum train accuracy is 0.5285714285714286 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 56
+
+------------------------------------------------------------------
+Time of iter training 2.54 s
+On iter step 17.0:, global step 119 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.94], Accuracy is 0.4142857142857143
+Confusion matrix: 
+[[17 53  0]
+ [ 0 70  0]
+ [ 0 70  0]]
+In dataset test: Loss is [2.94], Accuracy is 0.4
+Confusion matrix: 
+[[1 4 0]
+ [0 5 0]
+ [0 5 0]]
+Maximum train accuracy is 0.5285714285714286 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 56
+
+------------------------------------------------------------------
+Time of iter training 2.48 s
+On iter step 18.0:, global step 126 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.94], Accuracy is 0.4
+Confusion matrix: 
+[[14  0 56]
+ [ 0  0 70]
+ [ 0  0 70]]
+In dataset test: Loss is [2.95], Accuracy is 0.4
+Confusion matrix: 
+[[1 0 4]
+ [0 0 5]
+ [0 0 5]]
+Maximum train accuracy is 0.5285714285714286 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 56
+
+------------------------------------------------------------------
+Time of iter training 2.35 s
+On iter step 19.0:, global step 133 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.96], Accuracy is 0.4
+Confusion matrix: 
+[[14  0 56]
+ [ 0  0 70]
+ [ 0  0 70]]
+In dataset test: Loss is [2.99], Accuracy is 0.4
+Confusion matrix: 
+[[1 0 4]
+ [0 0 5]
+ [0 0 5]]
+Maximum train accuracy is 0.5285714285714286 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 56
+
+------------------------------------------------------------------
+Time of iter training 2.27 s
+On iter step 20.0:, global step 140 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [3.00], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[ 0  0 70]
+ [ 0  0 70]
+ [ 0  0 70]]
+In dataset test: Loss is [3.05], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[0 0 5]
+ [0 0 5]
+ [0 0 5]]
+Maximum train accuracy is 0.5285714285714286 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 56
+
+------------------------------------------------------------------
+Time of iter training 2.20 s
+On iter step 21.0:, global step 147 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.99], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[70  0  0]
+ [70  0  0]
+ [70  0  0]]
+In dataset test: Loss is [2.97], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[5 0 0]
+ [5 0 0]
+ [5 0 0]]
+Maximum train accuracy is 0.5285714285714286 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 56
+
+------------------------------------------------------------------
+Time of iter training 2.14 s
+On iter step 22.0:, global step 154 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.96], Accuracy is 0.3952380952380952
+Confusion matrix: 
+[[18  0 52]
+ [18  0 52]
+ [ 5  0 65]]
+In dataset test: Loss is [2.94], Accuracy is 0.4
+Confusion matrix: 
+[[1 0 4]
+ [1 0 4]
+ [0 0 5]]
+Maximum train accuracy is 0.5285714285714286 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 56
+
+------------------------------------------------------------------
+Time of iter training 2.06 s
+On iter step 23.0:, global step 161 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.93], Accuracy is 0.4
+Confusion matrix: 
+[[14  0 56]
+ [ 0  0 70]
+ [ 0  0 70]]
+In dataset test: Loss is [2.94], Accuracy is 0.4
+Confusion matrix: 
+[[1 0 4]
+ [0 0 5]
+ [0 0 5]]
+Maximum train accuracy is 0.5285714285714286 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 56
+
+------------------------------------------------------------------
+Time of iter training 1.99 s
+On iter step 24.0:, global step 168 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.93], Accuracy is 0.4666666666666667
+Confusion matrix: 
+[[14  0 56]
+ [ 0 14 56]
+ [ 0  0 70]]
+In dataset test: Loss is [2.95], Accuracy is 0.4666666666666667
+Confusion matrix: 
+[[1 0 4]
+ [0 1 4]
+ [0 0 5]]
+Maximum train accuracy is 0.5285714285714286 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 168
+
+------------------------------------------------------------------
+Time of iter training 1.96 s
+On iter step 25.0:, global step 175 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.92], Accuracy is 0.4666666666666667
+Confusion matrix: 
+[[14  0 56]
+ [ 0 14 56]
+ [ 0  0 70]]
+In dataset test: Loss is [2.94], Accuracy is 0.4666666666666667
+Confusion matrix: 
+[[1 0 4]
+ [0 1 4]
+ [0 0 5]]
+Maximum train accuracy is 0.5285714285714286 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 175
+
+------------------------------------------------------------------
+Time of iter training 1.89 s
+On iter step 26.0:, global step 182 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.91], Accuracy is 0.42857142857142855
+Confusion matrix: 
+[[16  0 54]
+ [10  4 56]
+ [ 0  0 70]]
+In dataset test: Loss is [2.91], Accuracy is 0.4
+Confusion matrix: 
+[[1 0 4]
+ [1 0 4]
+ [0 0 5]]
+Maximum train accuracy is 0.5285714285714286 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 175
+
+------------------------------------------------------------------
+Time of iter training 1.84 s
+On iter step 27.0:, global step 189 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.91], Accuracy is 0.4
+Confusion matrix: 
+[[14 56  0]
+ [ 0 70  0]
+ [ 0 70  0]]
+In dataset test: Loss is [2.92], Accuracy is 0.4
+Confusion matrix: 
+[[1 4 0]
+ [0 5 0]
+ [0 5 0]]
+Maximum train accuracy is 0.5285714285714286 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 175
+
+------------------------------------------------------------------
+Time of iter training 1.83 s
+On iter step 28.0:, global step 196 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.92], Accuracy is 0.4
+Confusion matrix: 
+[[14 56  0]
+ [ 0 70  0]
+ [ 0 70  0]]
+In dataset test: Loss is [2.93], Accuracy is 0.4
+Confusion matrix: 
+[[1 4 0]
+ [0 5 0]
+ [0 5 0]]
+Maximum train accuracy is 0.5285714285714286 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 175
+
+------------------------------------------------------------------
+Time of iter training 1.77 s
+On iter step 29.0:, global step 203 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.94], Accuracy is 0.4
+Confusion matrix: 
+[[14 56  0]
+ [ 0 70  0]
+ [ 0 70  0]]
+In dataset test: Loss is [2.95], Accuracy is 0.4
+Confusion matrix: 
+[[1 4 0]
+ [0 5 0]
+ [0 5 0]]
+Maximum train accuracy is 0.5285714285714286 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 175
+
+------------------------------------------------------------------
+Time of iter training 1.73 s
+On iter step 30.0:, global step 210 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.90], Accuracy is 0.4666666666666667
+Confusion matrix: 
+[[14  0 56]
+ [ 0 16 54]
+ [ 0  2 68]]
+In dataset test: Loss is [2.91], Accuracy is 0.4666666666666667
+Confusion matrix: 
+[[1 0 4]
+ [0 1 4]
+ [0 0 5]]
+Maximum train accuracy is 0.5285714285714286 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 210
+
+------------------------------------------------------------------
+Time of iter training 1.74 s
+On iter step 31.0:, global step 217 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.91], Accuracy is 0.4
+Confusion matrix: 
+[[14 56  0]
+ [ 0 70  0]
+ [ 0 70  0]]
+In dataset test: Loss is [2.93], Accuracy is 0.4
+Confusion matrix: 
+[[1 4 0]
+ [0 5 0]
+ [0 5 0]]
+Maximum train accuracy is 0.5285714285714286 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 210
+
+------------------------------------------------------------------
+Time of iter training 1.69 s
+On iter step 32.0:, global step 224 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.96], Accuracy is 0.4
+Confusion matrix: 
+[[14  0 56]
+ [ 0  0 70]
+ [ 0  0 70]]
+In dataset test: Loss is [2.98], Accuracy is 0.4
+Confusion matrix: 
+[[1 0 4]
+ [0 0 5]
+ [0 0 5]]
+Maximum train accuracy is 0.5285714285714286 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 210
+
+------------------------------------------------------------------
+Time of iter training 1.67 s
+On iter step 33.0:, global step 231 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.97], Accuracy is 0.4
+Confusion matrix: 
+[[14  0 56]
+ [ 0  0 70]
+ [ 0  0 70]]
+In dataset test: Loss is [3.00], Accuracy is 0.4
+Confusion matrix: 
+[[1 0 4]
+ [0 0 5]
+ [0 0 5]]
+Maximum train accuracy is 0.5285714285714286 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 210
+
+------------------------------------------------------------------
+Time of iter training 1.66 s
+On iter step 34.0:, global step 238 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.91], Accuracy is 0.4
+Confusion matrix: 
+[[14 56  0]
+ [ 0 70  0]
+ [ 0 70  0]]
+In dataset test: Loss is [2.92], Accuracy is 0.4
+Confusion matrix: 
+[[1 4 0]
+ [0 5 0]
+ [0 5 0]]
+Maximum train accuracy is 0.5285714285714286 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 210
+
+------------------------------------------------------------------
+Time of iter training 1.67 s
+On iter step 35.0:, global step 245 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.93], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[70  0  0]
+ [70  0  0]
+ [70  0  0]]
+In dataset test: Loss is [2.92], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[5 0 0]
+ [5 0 0]
+ [5 0 0]]
+Maximum train accuracy is 0.5285714285714286 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 210
+
+------------------------------------------------------------------
+Time of iter training 1.62 s
+On iter step 36.0:, global step 252 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.95], Accuracy is 0.4
+Confusion matrix: 
+[[14  0 56]
+ [ 0  0 70]
+ [ 0  0 70]]
+In dataset test: Loss is [2.96], Accuracy is 0.4
+Confusion matrix: 
+[[1 0 4]
+ [0 0 5]
+ [0 0 5]]
+Maximum train accuracy is 0.5285714285714286 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 210
+
+------------------------------------------------------------------
+Time of iter training 1.61 s
+On iter step 37.0:, global step 259 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.94], Accuracy is 0.4
+Confusion matrix: 
+[[14  0 56]
+ [ 0  0 70]
+ [ 0  0 70]]
+In dataset test: Loss is [2.97], Accuracy is 0.4
+Confusion matrix: 
+[[1 0 4]
+ [0 0 5]
+ [0 0 5]]
+Maximum train accuracy is 0.5285714285714286 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 210
+
+------------------------------------------------------------------
+Time of iter training 1.61 s
+On iter step 38.0:, global step 266 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.89], Accuracy is 0.4
+Confusion matrix: 
+[[14 56  0]
+ [ 0 70  0]
+ [ 0 70  0]]
+In dataset test: Loss is [2.90], Accuracy is 0.4
+Confusion matrix: 
+[[1 4 0]
+ [0 5 0]
+ [0 5 0]]
+Maximum train accuracy is 0.5285714285714286 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 210
+
+------------------------------------------------------------------
+Time of iter training 1.60 s
+On iter step 39.0:, global step 273 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.89], Accuracy is 0.5190476190476191
+Confusion matrix: 
+[[15 32 23]
+ [ 0 60 10]
+ [ 0 36 34]]
+In dataset test: Loss is [2.89], Accuracy is 0.4666666666666667
+Confusion matrix: 
+[[1 0 4]
+ [0 1 4]
+ [0 0 5]]
+Maximum train accuracy is 0.5285714285714286 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 273
+========
+subject 0
+========
+model parameters: Namespace(batch_size=16, bidirectional=False, cell_dropout=0.1, clip_id=None, db_name='SEED', final_dropout=0.1, hidden_dim=1024, iter_num=280, learning_rate=0.0001, log_dir='log_loso_s1', n_layer=2, name_model='EEG-Emotion-master', optim_type='Adam', path='EEG_feature/SEED_win_s1.mat', per_checkpoint=7, rnn_type='LSTM', save_file='1101_loso_s1', seed=1705216, session_id=None, strategy='loso', sub_id=0, weight_decay=0)
+------------------------------------------------------------------
+Time of iter training 0.00 s
+On iter step 0.0:, global step 0 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [3.23], Accuracy is 0.3238095238095238
+Confusion matrix: 
+[[ 0 10 60]
+ [ 0  4 66]
+ [ 0  6 64]]
+In dataset test: Loss is [3.31], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[0 0 5]
+ [0 0 5]
+ [0 0 5]]
+Maximum train accuracy is 0.3238095238095238 in global step 0
+Maximum test accuracy is 0.3333333333333333 in global step 0
+
+------------------------------------------------------------------
+Time of iter training 13.52 s
+On iter step 1.0:, global step 7 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [4.13], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[ 0  0 70]
+ [ 0  0 70]
+ [ 0  0 70]]
+In dataset test: Loss is [4.62], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[0 0 5]
+ [0 0 5]
+ [0 0 5]]
+Maximum train accuracy is 0.3333333333333333 in global step 7
+Maximum test accuracy is 0.3333333333333333 in global step 7
+
+------------------------------------------------------------------
+Time of iter training 13.16 s
+On iter step 2.0:, global step 14 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [3.95], Accuracy is 0.3761904761904762
+Confusion matrix: 
+[[ 9 61  0]
+ [ 0 70  0]
+ [ 0 70  0]]
+In dataset test: Loss is [3.70], Accuracy is 0.4
+Confusion matrix: 
+[[1 4 0]
+ [0 5 0]
+ [0 5 0]]
+Maximum train accuracy is 0.3761904761904762 in global step 14
+Maximum test accuracy is 0.4 in global step 14
+
+------------------------------------------------------------------
+Time of iter training 12.61 s
+On iter step 3.0:, global step 21 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [3.38], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[ 0  0 70]
+ [ 0  0 70]
+ [ 0  0 70]]
+In dataset test: Loss is [3.43], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[0 0 5]
+ [0 0 5]
+ [0 0 5]]
+Maximum train accuracy is 0.3761904761904762 in global step 14
+Maximum test accuracy is 0.4 in global step 14
+
+------------------------------------------------------------------
+Time of iter training 12.58 s
+On iter step 4.0:, global step 28 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.99], Accuracy is 0.40476190476190477
+Confusion matrix: 
+[[15 55  0]
+ [ 0 70  0]
+ [ 3 67  0]]
+In dataset test: Loss is [2.99], Accuracy is 0.4
+Confusion matrix: 
+[[1 4 0]
+ [0 5 0]
+ [0 5 0]]
+Maximum train accuracy is 0.40476190476190477 in global step 28
+Maximum test accuracy is 0.4 in global step 28
+
+------------------------------------------------------------------
+Time of iter training 12.64 s
+On iter step 5.0:, global step 35 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [3.11], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[70  0  0]
+ [70  0  0]
+ [70  0  0]]
+In dataset test: Loss is [3.14], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[5 0 0]
+ [5 0 0]
+ [5 0 0]]
+Maximum train accuracy is 0.40476190476190477 in global step 28
+Maximum test accuracy is 0.4 in global step 28
+
+------------------------------------------------------------------
+Time of iter training 12.68 s
+On iter step 6.0:, global step 42 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.90], Accuracy is 0.4
+Confusion matrix: 
+[[14  0 56]
+ [ 0  0 70]
+ [ 0  0 70]]
+In dataset test: Loss is [2.99], Accuracy is 0.4
+Confusion matrix: 
+[[1 0 4]
+ [0 0 5]
+ [0 0 5]]
+Maximum train accuracy is 0.40476190476190477 in global step 28
+Maximum test accuracy is 0.4 in global step 42
+
+------------------------------------------------------------------
+Time of iter training 12.64 s
+On iter step 7.0:, global step 49 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.95], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[70  0  0]
+ [70  0  0]
+ [70  0  0]]
+In dataset test: Loss is [3.00], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[5 0 0]
+ [5 0 0]
+ [5 0 0]]
+Maximum train accuracy is 0.40476190476190477 in global step 28
+Maximum test accuracy is 0.4 in global step 42
+
+------------------------------------------------------------------
+Time of iter training 12.62 s
+On iter step 8.0:, global step 56 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.88], Accuracy is 0.5047619047619047
+Confusion matrix: 
+[[12  3 55]
+ [ 0 27 43]
+ [ 0  3 67]]
+In dataset test: Loss is [2.93], Accuracy is 0.4666666666666667
+Confusion matrix: 
+[[1 0 4]
+ [0 1 4]
+ [0 0 5]]
+Maximum train accuracy is 0.5047619047619047 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 56
+
+------------------------------------------------------------------
+Time of iter training 12.86 s
+On iter step 9.0:, global step 63 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [3.26], Accuracy is 0.34285714285714286
+Confusion matrix: 
+[[70  0  0]
+ [69  0  1]
+ [68  0  2]]
+In dataset test: Loss is [3.29], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[5 0 0]
+ [5 0 0]
+ [5 0 0]]
+Maximum train accuracy is 0.5047619047619047 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 56
+
+------------------------------------------------------------------
+Time of iter training 12.61 s
+On iter step 10.0:, global step 70 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.79], Accuracy is 0.44285714285714284
+Confusion matrix: 
+[[17 49  4]
+ [ 0 70  0]
+ [ 0 64  6]]
+In dataset test: Loss is [2.81], Accuracy is 0.4
+Confusion matrix: 
+[[1 4 0]
+ [0 5 0]
+ [0 5 0]]
+Maximum train accuracy is 0.5047619047619047 in global step 56
+Maximum test accuracy is 0.4666666666666667 in global step 56
+
+------------------------------------------------------------------
+Time of iter training 12.63 s
+On iter step 11.0:, global step 77 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.79], Accuracy is 0.5428571428571428
+Confusion matrix: 
+[[65  5  0]
+ [21 49  0]
+ [54 16  0]]
+In dataset test: Loss is [2.82], Accuracy is 0.4666666666666667
+Confusion matrix: 
+[[5 0 0]
+ [3 2 0]
+ [5 0 0]]
+Maximum train accuracy is 0.5428571428571428 in global step 77
+Maximum test accuracy is 0.4666666666666667 in global step 77
+
+------------------------------------------------------------------
+Time of iter training 12.63 s
+On iter step 12.0:, global step 84 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.75], Accuracy is 0.5190476190476191
+Confusion matrix: 
+[[65  5  0]
+ [26 44  0]
+ [57 13  0]]
+In dataset test: Loss is [2.78], Accuracy is 0.4
+Confusion matrix: 
+[[5 0 0]
+ [4 1 0]
+ [5 0 0]]
+Maximum train accuracy is 0.5428571428571428 in global step 77
+Maximum test accuracy is 0.4666666666666667 in global step 77
+
+------------------------------------------------------------------
+Time of iter training 12.62 s
+On iter step 13.0:, global step 91 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.73], Accuracy is 0.47619047619047616
+Confusion matrix: 
+[[23  0 47]
+ [ 7 10 53]
+ [ 3  0 67]]
+In dataset test: Loss is [2.87], Accuracy is 0.4666666666666667
+Confusion matrix: 
+[[4 0 1]
+ [1 0 4]
+ [2 0 3]]
+Maximum train accuracy is 0.5428571428571428 in global step 77
+Maximum test accuracy is 0.4666666666666667 in global step 91
+
+------------------------------------------------------------------
+Time of iter training 12.72 s
+On iter step 14.0:, global step 98 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.85], Accuracy is 0.4
+Confusion matrix: 
+[[13 54  3]
+ [ 0 70  0]
+ [ 0 69  1]]
+In dataset test: Loss is [2.75], Accuracy is 0.4
+Confusion matrix: 
+[[1 4 0]
+ [0 5 0]
+ [0 5 0]]
+Maximum train accuracy is 0.5428571428571428 in global step 77
+Maximum test accuracy is 0.4666666666666667 in global step 91
+
+------------------------------------------------------------------
+Time of iter training 13.90 s
+On iter step 15.0:, global step 105 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.56], Accuracy is 0.6523809523809524
+Confusion matrix: 
+[[43 12 15]
+ [ 4 53 13]
+ [ 8 21 41]]
+In dataset test: Loss is [2.67], Accuracy is 0.4
+Confusion matrix: 
+[[5 0 0]
+ [3 1 1]
+ [5 0 0]]
+Maximum train accuracy is 0.6523809523809524 in global step 105
+Maximum test accuracy is 0.4666666666666667 in global step 91
+
+------------------------------------------------------------------
+Time of iter training 12.75 s
+On iter step 16.0:, global step 112 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.72], Accuracy is 0.43333333333333335
+Confusion matrix: 
+[[14  0 56]
+ [ 0  7 63]
+ [ 0  0 70]]
+In dataset test: Loss is [2.92], Accuracy is 0.4
+Confusion matrix: 
+[[1 0 4]
+ [0 0 5]
+ [0 0 5]]
+Maximum train accuracy is 0.6523809523809524 in global step 105
+Maximum test accuracy is 0.4666666666666667 in global step 91
+
+------------------------------------------------------------------
+Time of iter training 12.68 s
+On iter step 17.0:, global step 119 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.53], Accuracy is 0.5619047619047619
+Confusion matrix: 
+[[48 22  0]
+ [ 4 66  0]
+ [30 36  4]]
+In dataset test: Loss is [2.60], Accuracy is 0.5333333333333333
+Confusion matrix: 
+[[5 0 0]
+ [2 3 0]
+ [5 0 0]]
+Maximum train accuracy is 0.6523809523809524 in global step 105
+Maximum test accuracy is 0.5333333333333333 in global step 119
+
+------------------------------------------------------------------
+Time of iter training 12.64 s
+On iter step 18.0:, global step 126 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.54], Accuracy is 0.5571428571428572
+Confusion matrix: 
+[[14  8 48]
+ [ 0 49 21]
+ [ 0 16 54]]
+In dataset test: Loss is [2.58], Accuracy is 0.5333333333333333
+Confusion matrix: 
+[[1 0 4]
+ [0 2 3]
+ [0 0 5]]
+Maximum train accuracy is 0.6523809523809524 in global step 105
+Maximum test accuracy is 0.5333333333333333 in global step 126
+
+------------------------------------------------------------------
+Time of iter training 12.65 s
+On iter step 19.0:, global step 133 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.51], Accuracy is 0.5523809523809524
+Confusion matrix: 
+[[64  5  1]
+ [26 41  3]
+ [48 11 11]]
+In dataset test: Loss is [2.66], Accuracy is 0.4
+Confusion matrix: 
+[[5 0 0]
+ [4 1 0]
+ [5 0 0]]
+Maximum train accuracy is 0.6523809523809524 in global step 105
+Maximum test accuracy is 0.5333333333333333 in global step 126
+
+------------------------------------------------------------------
+Time of iter training 12.64 s
+On iter step 20.0:, global step 140 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.96], Accuracy is 0.46190476190476193
+Confusion matrix: 
+[[26  0 44]
+ [ 8  4 58]
+ [ 3  0 67]]
+In dataset test: Loss is [3.16], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[5 0 0]
+ [2 0 3]
+ [5 0 0]]
+Maximum train accuracy is 0.6523809523809524 in global step 105
+Maximum test accuracy is 0.5333333333333333 in global step 126
+
+------------------------------------------------------------------
+Time of iter training 12.67 s
+On iter step 21.0:, global step 147 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.67], Accuracy is 0.5047619047619047
+Confusion matrix: 
+[[14 33 23]
+ [ 0 68  2]
+ [ 0 46 24]]
+In dataset test: Loss is [2.63], Accuracy is 0.5333333333333333
+Confusion matrix: 
+[[1 1 3]
+ [0 5 0]
+ [0 3 2]]
+Maximum train accuracy is 0.6523809523809524 in global step 105
+Maximum test accuracy is 0.5333333333333333 in global step 147
+
+------------------------------------------------------------------
+Time of iter training 12.60 s
+On iter step 22.0:, global step 154 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.63], Accuracy is 0.5190476190476191
+Confusion matrix: 
+[[62  8  0]
+ [23 47  0]
+ [56 14  0]]
+In dataset test: Loss is [2.73], Accuracy is 0.4666666666666667
+Confusion matrix: 
+[[5 0 0]
+ [3 2 0]
+ [5 0 0]]
+Maximum train accuracy is 0.6523809523809524 in global step 105
+Maximum test accuracy is 0.5333333333333333 in global step 147
+
+------------------------------------------------------------------
+Time of iter training 12.61 s
+On iter step 23.0:, global step 161 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.56], Accuracy is 0.5666666666666667
+Confusion matrix: 
+[[14  6 50]
+ [ 0 46 24]
+ [ 0 11 59]]
+In dataset test: Loss is [2.58], Accuracy is 0.5333333333333333
+Confusion matrix: 
+[[1 0 4]
+ [0 2 3]
+ [0 0 5]]
+Maximum train accuracy is 0.6523809523809524 in global step 105
+Maximum test accuracy is 0.5333333333333333 in global step 161
+
+------------------------------------------------------------------
+Time of iter training 12.66 s
+On iter step 24.0:, global step 168 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.56], Accuracy is 0.49047619047619045
+Confusion matrix: 
+[[64  2  4]
+ [34 22 14]
+ [50  3 17]]
+In dataset test: Loss is [2.91], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[5 0 0]
+ [5 0 0]
+ [5 0 0]]
+Maximum train accuracy is 0.6523809523809524 in global step 105
+Maximum test accuracy is 0.5333333333333333 in global step 161
+
+------------------------------------------------------------------
+Time of iter training 12.63 s
+On iter step 25.0:, global step 175 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.40], Accuracy is 0.5857142857142857
+Confusion matrix: 
+[[19  3 48]
+ [ 0 45 25]
+ [ 1 10 59]]
+In dataset test: Loss is [2.67], Accuracy is 0.5333333333333333
+Confusion matrix: 
+[[3 0 2]
+ [1 0 4]
+ [0 0 5]]
+Maximum train accuracy is 0.6523809523809524 in global step 105
+Maximum test accuracy is 0.5333333333333333 in global step 175
+
+------------------------------------------------------------------
+Time of iter training 13.91 s
+On iter step 26.0:, global step 182 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.44], Accuracy is 0.5238095238095238
+Confusion matrix: 
+[[67  3  0]
+ [27 43  0]
+ [60 10  0]]
+In dataset test: Loss is [2.73], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[5 0 0]
+ [5 0 0]
+ [5 0 0]]
+Maximum train accuracy is 0.6523809523809524 in global step 105
+Maximum test accuracy is 0.5333333333333333 in global step 175
+
+------------------------------------------------------------------
+Time of iter training 14.94 s
+On iter step 27.0:, global step 189 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.33], Accuracy is 0.6285714285714286
+Confusion matrix: 
+[[54 14  2]
+ [ 7 61  2]
+ [26 27 17]]
+In dataset test: Loss is [2.44], Accuracy is 0.4666666666666667
+Confusion matrix: 
+[[5 0 0]
+ [1 2 2]
+ [5 0 0]]
+Maximum train accuracy is 0.6523809523809524 in global step 105
+Maximum test accuracy is 0.5333333333333333 in global step 175
+
+------------------------------------------------------------------
+Time of iter training 14.12 s
+On iter step 28.0:, global step 196 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.45], Accuracy is 0.5285714285714286
+Confusion matrix: 
+[[14  8 48]
+ [ 0 40 30]
+ [ 0 13 57]]
+In dataset test: Loss is [2.80], Accuracy is 0.4666666666666667
+Confusion matrix: 
+[[1 0 4]
+ [0 1 4]
+ [0 0 5]]
+Maximum train accuracy is 0.6523809523809524 in global step 105
+Maximum test accuracy is 0.5333333333333333 in global step 175
+
+------------------------------------------------------------------
+Time of iter training 13.28 s
+On iter step 29.0:, global step 203 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.42], Accuracy is 0.5761904761904761
+Confusion matrix: 
+[[68  2  0]
+ [20 50  0]
+ [57 10  3]]
+In dataset test: Loss is [2.63], Accuracy is 0.4
+Confusion matrix: 
+[[5 0 0]
+ [4 1 0]
+ [5 0 0]]
+Maximum train accuracy is 0.6523809523809524 in global step 105
+Maximum test accuracy is 0.5333333333333333 in global step 175
+
+------------------------------------------------------------------
+Time of iter training 13.00 s
+On iter step 30.0:, global step 210 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.65], Accuracy is 0.6
+Confusion matrix: 
+[[14 22 34]
+ [ 0 65  5]
+ [ 0 23 47]]
+In dataset test: Loss is [2.60], Accuracy is 0.5333333333333333
+Confusion matrix: 
+[[1 0 4]
+ [0 2 3]
+ [0 0 5]]
+Maximum train accuracy is 0.6523809523809524 in global step 105
+Maximum test accuracy is 0.5333333333333333 in global step 210
+
+------------------------------------------------------------------
+Time of iter training 13.80 s
+On iter step 31.0:, global step 217 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.37], Accuracy is 0.580952380952381
+Confusion matrix: 
+[[14  2 54]
+ [ 0 41 29]
+ [ 0  3 67]]
+In dataset test: Loss is [2.60], Accuracy is 0.4666666666666667
+Confusion matrix: 
+[[1 0 4]
+ [0 1 4]
+ [0 0 5]]
+Maximum train accuracy is 0.6523809523809524 in global step 105
+Maximum test accuracy is 0.5333333333333333 in global step 210
+
+------------------------------------------------------------------
+Time of iter training 12.92 s
+On iter step 32.0:, global step 224 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.83], Accuracy is 0.4714285714285714
+Confusion matrix: 
+[[21  0 49]
+ [ 9  8 53]
+ [ 0  0 70]]
+In dataset test: Loss is [3.23], Accuracy is 0.5333333333333333
+Confusion matrix: 
+[[3 0 2]
+ [1 0 4]
+ [0 0 5]]
+Maximum train accuracy is 0.6523809523809524 in global step 105
+Maximum test accuracy is 0.5333333333333333 in global step 224
+
+------------------------------------------------------------------
+Time of iter training 14.65 s
+On iter step 33.0:, global step 231 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.40], Accuracy is 0.580952380952381
+Confusion matrix: 
+[[68  2  0]
+ [16 54  0]
+ [58 12  0]]
+In dataset test: Loss is [2.57], Accuracy is 0.4
+Confusion matrix: 
+[[5 0 0]
+ [4 1 0]
+ [5 0 0]]
+Maximum train accuracy is 0.6523809523809524 in global step 105
+Maximum test accuracy is 0.5333333333333333 in global step 224
+
+------------------------------------------------------------------
+Time of iter training 12.69 s
+On iter step 34.0:, global step 238 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [3.22], Accuracy is 0.3952380952380952
+Confusion matrix: 
+[[13 57  0]
+ [ 0 70  0]
+ [ 0 70  0]]
+In dataset test: Loss is [2.91], Accuracy is 0.4
+Confusion matrix: 
+[[1 4 0]
+ [0 5 0]
+ [0 5 0]]
+Maximum train accuracy is 0.6523809523809524 in global step 105
+Maximum test accuracy is 0.5333333333333333 in global step 224
+
+------------------------------------------------------------------
+Time of iter training 13.61 s
+On iter step 35.0:, global step 245 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.62], Accuracy is 0.5333333333333333
+Confusion matrix: 
+[[57  0 13]
+ [45 15 10]
+ [29  1 40]]
+In dataset test: Loss is [2.91], Accuracy is 0.4666666666666667
+Confusion matrix: 
+[[4 0 1]
+ [2 0 3]
+ [2 0 3]]
+Maximum train accuracy is 0.6523809523809524 in global step 105
+Maximum test accuracy is 0.5333333333333333 in global step 224
+
+------------------------------------------------------------------
+Time of iter training 12.82 s
+On iter step 36.0:, global step 252 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.61], Accuracy is 0.40476190476190477
+Confusion matrix: 
+[[14 51  5]
+ [ 0 70  0]
+ [ 0 69  1]]
+In dataset test: Loss is [2.53], Accuracy is 0.4666666666666667
+Confusion matrix: 
+[[1 4 0]
+ [0 5 0]
+ [0 4 1]]
+Maximum train accuracy is 0.6523809523809524 in global step 105
+Maximum test accuracy is 0.5333333333333333 in global step 224
+
+------------------------------------------------------------------
+Time of iter training 13.08 s
+On iter step 37.0:, global step 259 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.44], Accuracy is 0.5619047619047619
+Confusion matrix: 
+[[14  2 54]
+ [ 0 39 31]
+ [ 0  5 65]]
+In dataset test: Loss is [2.50], Accuracy is 0.4666666666666667
+Confusion matrix: 
+[[1 0 4]
+ [0 1 4]
+ [0 0 5]]
+Maximum train accuracy is 0.6523809523809524 in global step 105
+Maximum test accuracy is 0.5333333333333333 in global step 224
+
+------------------------------------------------------------------
+Time of iter training 16.50 s
+On iter step 38.0:, global step 266 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.53], Accuracy is 0.5
+Confusion matrix: 
+[[33 37  0]
+ [ 0 70  0]
+ [10 58  2]]
+In dataset test: Loss is [2.50], Accuracy is 0.6
+Confusion matrix: 
+[[4 1 0]
+ [0 5 0]
+ [1 4 0]]
+Maximum train accuracy is 0.6523809523809524 in global step 105
+Maximum test accuracy is 0.6 in global step 266
+
+------------------------------------------------------------------
+Time of iter training 12.74 s
+On iter step 39.0:, global step 273 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [2.54], Accuracy is 0.5095238095238095
+Confusion matrix: 
+[[14  0 56]
+ [ 0 25 45]
+ [ 0  2 68]]
+In dataset test: Loss is [2.66], Accuracy is 0.4666666666666667
+Confusion matrix: 
+[[1 0 4]
+ [0 1 4]
+ [0 0 5]]
+Maximum train accuracy is 0.6523809523809524 in global step 105
+Maximum test accuracy is 0.6 in global step 266
+========
+subject 0
+========
+model parameters: Namespace(batch_size=16, bidirectional=False, cell_dropout=0.1, clip_id=None, db_name='SEED', final_dropout=0.1, hidden_dim=1024, iter_num=280, learning_rate=0.0001, log_dir='log_loso_s1', n_layer=2, name_model='EEG-Emotion-master', optim_type='Adam', path='EEG_feature/SEED_win_s1.mat', per_checkpoint=7, rnn_type='LSTM', save_file='1101_loso_s1', seed=1705216, session_id=None, strategy='loso', sub_id=0, weight_decay=0)
+------------------------------------------------------------------
+Time of iter training 0.00 s
+On iter step 0.0:, global step 0 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [3.19], Accuracy is 0.34285714285714286
+Confusion matrix: 
+[[ 5 65  0]
+ [ 3 67  0]
+ [ 3 67  0]]
+In dataset test: Loss is [3.23], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[0 5 0]
+ [0 5 0]
+ [0 5 0]]
+Maximum train accuracy is 0.34285714285714286 in global step 0
+Maximum test accuracy is 0.3333333333333333 in global step 0
+
+------------------------------------------------------------------
+Time of iter training 19.37 s
+On iter step 1.0:, global step 7 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [3.43], Accuracy is 0.3380952380952381
+Confusion matrix: 
+[[70  0  0]
+ [69  1  0]
+ [70  0  0]]
+In dataset test: Loss is [3.33], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[5 0 0]
+ [5 0 0]
+ [5 0 0]]
+Maximum train accuracy is 0.34285714285714286 in global step 0
+Maximum test accuracy is 0.3333333333333333 in global step 7
+
+------------------------------------------------------------------
+Time of iter training 26.28 s
+On iter step 2.0:, global step 14 learning rate 0.0001 Loss-step [1.00 1.00 1.00]
+In dataset train: Loss is [3.15], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[70  0  0]
+ [70  0  0]
+ [70  0  0]]
+In dataset test: Loss is [3.15], Accuracy is 0.3333333333333333
+Confusion matrix: 
+[[5 0 0]
+ [5 0 0]
+ [5 0 0]]
+Maximum train accuracy is 0.34285714285714286 in global step 0
+Maximum test accuracy is 0.3333333333333333 in global step 14
